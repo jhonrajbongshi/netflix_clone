@@ -35,9 +35,9 @@ const handleClick = (movie) =>{
     else{
         movieTrailer(movie.name || "")
         .then(url=>{
-            // const urlParams = new URLSearchParams(new URL(url).search)
+            // const urlParams = new URLSearchParams(new URL(url).search)// movie trailer package is not working properly
             console.log(url)
-            setTrailerUrl("https://www.youtube.com/watch?v=TAWBj3mXM5w");
+            setTrailerUrl("https://www.youtube.com/watch?v=TAWBj3mXM5w");// youtube video is not played properly its getting played back error
         })
         .catch((error)=> console.log(error))
     }
