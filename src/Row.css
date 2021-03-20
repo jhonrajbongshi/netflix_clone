@@ -1,0 +1,31 @@
+.row{
+    margin-left: 25px;
+}
+
+.row_poster{
+    object-fit: contain;
+    width: 100%;
+    max-height: 150px;
+    padding: 5px;
+    transition: transform 450ms;
+}
+.row_posters{
+    display: flex;
+}
+.row_poster:hover{
+transform: scale(1.09);
+}
+.row_posters::-webkit-scrollbar{
+display: none;
+}
+
+.row_posterLarge{
+    max-height: 280px;
+}
+.row_posterLarge:hover{
+    transform: scale(1.20);
+    }
+
+.row_title{
+    color: aliceblue;
+}
